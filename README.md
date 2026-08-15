@@ -2,7 +2,7 @@
 
 A modern, fully responsive women's fashion e-commerce website built with pure **HTML5**, **CSS3**, and **Vanilla JavaScript** — no frameworks, no dependencies.
 
-![LUMIÈRE Preview](lumi-re-women-s-fashion.vercel.app)
+![LUMIÈRE Preview](LUMI-RE-Women-s-Fashion.PNG)
 
 ---
 
