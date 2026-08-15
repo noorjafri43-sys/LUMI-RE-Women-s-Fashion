@@ -2,13 +2,13 @@
 
 A modern, fully responsive women's fashion e-commerce website built with pure **HTML5**, **CSS3**, and **Vanilla JavaScript** — no frameworks, no dependencies.
 
-![LUMIÈRE Preview](LUMI-RE-Women-s-Fashion.PNG)
+[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-lumi--re--women--s--fashion.vercel.app-c9a96e?style=for-the-badge)](https://lumi-re-women-s-fashion.vercel.app/)
 
 ---
 
 ## 🌐 Live Demo
 
-> Open `index.html` in your browser — works offline, no server required.
+🔗 **[https://lumi-re-women-s-fashion.vercel.app/](https://lumi-re-women-s-fashion.vercel.app/)**
 
 ---
 
@@ -91,10 +91,10 @@ lumiere/
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/lumiere-fashion.git
+git clone https://github.com/noorjafri43-sys/LUMI-RE-Women-s-Fashion.git
 
 # Navigate into the project
-cd lumiere-fashion
+cd LUMI-RE-Women-s-Fashion
 
 # Open in browser (no server needed)
 open index.html
