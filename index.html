@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LUMIÈRE — Women's Fashion</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo">LUMIÈRE</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#sale">Sale</a>
+        <a href="#products">Products</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#products" class="nav-cta">Shop Now</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+      <div class="hero-slides" id="heroSlides">
+
+        <div class="hero-slide active">
+          <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1400&q=80')"></div>
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <span class="hero-eyebrow">New Season Arrivals</span>
+            <h1 class="hero-title">Effortless<br/><em>Elegance</em></h1>
+            <p class="hero-sub">Discover pieces that move with you — bold, feminine, timeless.</p>
+            <div class="hero-actions">
+              <a href="#products" class="btn-primary">Explore Collection <i class="fas fa-arrow-right"></i></a>
+              <a href="#sale" class="btn-ghost">View Sale</a>
+            </div>
+          </div>
+          <div class="hero-badge">Up to<br/><strong>52%</strong><br/>OFF</div>
+        </div>
+
+        <div class="hero-slide">
+          <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=1400&q=80')"></div>
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <span class="hero-eyebrow">Summer Edit</span>
+            <h1 class="hero-title">Summer<br/><em>in Bloom</em></h1>
+            <p class="hero-sub">Florals, linens, and light — your warm-weather wardrobe awaits.</p>
+            <div class="hero-actions">
+              <a href="#products" class="btn-primary">Shop Summer <i class="fas fa-arrow-right"></i></a>
+              <a href="#sale" class="btn-ghost">View Sale</a>
+            </div>
+          </div>
+          <div class="hero-badge">Up to<br/><strong>40%</strong><br/>OFF</div>
+        </div>
+
+        <div class="hero-slide">
+          <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1400&q=80')"></div>
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <span class="hero-eyebrow">Exclusive Drops</span>
+            <h1 class="hero-title">Made<br/><em>for You</em></h1>
+            <p class="hero-sub">Curated looks for every occasion — office, evening, weekend.</p>
+            <div class="hero-actions">
+              <a href="#products" class="btn-primary">Browse Looks <i class="fas fa-arrow-right"></i></a>
+              <a href="#sale" class="btn-ghost">View Sale</a>
+            </div>
+          </div>
+          <div class="hero-badge">Up to<br/><strong>60%</strong><br/>OFF</div>
+        </div>
+
+      </div>
+
+      <!-- Slide Controls -->
+      <button class="slide-btn prev" id="prevSlide"><i class="fas fa-chevron-left"></i></button>
+      <button class="slide-btn next" id="nextSlide"><i class="fas fa-chevron-right"></i></button>
+      <div class="slide-dots" id="slideDots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </section>
+
+    <!-- SALE BANNERS -->
+    <section id="sale" class="sale-section">
+      <div class="container">
+        <div class="sale-grid">
+
+          <div class="sale-card tall reveal" style="background-image: url('https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800&q=80')">
+            <div class="sale-overlay"></div>
+            <div class="sale-text">
+              <span class="sale-pct">30% OFF</span>
+              <p>Dresses & Gowns</p>
+              <a href="#products" class="sale-link">Shop Now <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="sale-col">
+            <div class="sale-card reveal" style="background-image: url('https://plus.unsplash.com/premium_photo-1679920026560-000496ff9e8b?q=80&w=388&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+              <div class="sale-overlay"></div>
+              <div class="sale-text">
+                <span class="sale-pct">70% OFF</span>
+                <p>Tops & Blouses</p>
+                <a href="#products" class="sale-link">Shop Now <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="sale-card reveal" style="background-image: url('https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?w=800&q=80')">
+              <div class="sale-overlay"></div>
+              <div class="sale-text">
+                <span class="sale-pct">50% OFF</span>
+                <p>Skirts & Pants</p>
+                <a href="#products" class="sale-link">Shop Now <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="sale-card tall reveal" style="background-image: url('https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=800&q=80')">
+            <div class="sale-overlay"></div>
+            <div class="sale-text">
+              <span class="sale-pct">25% OFF</span>
+              <p>Knitwear & Coats</p>
+              <a href="#products" class="sale-link">Shop Now <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PRODUCTS -->
+    <section id="products" class="products-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Curated for You</span>
+          <h2>Featured Products</h2>
+          <div class="divider"></div>
+        </div>
+
+        <div class="filter-tabs reveal">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="dress">Dresses</button>
+          <button class="filter-btn" data-filter="top">Tops</button>
+          <button class="filter-btn" data-filter="skirt">Skirts</button>
+        </div>
+
+        <div class="products-grid" id="productsGrid">
+
+          <div class="product-card reveal" data-cat="dress">
+            <div class="product-img-wrap">
+              <span class="badge new">New</span>
+              <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80" alt="Floral Wrap Dress" loading="lazy"/>
+              <div class="product-actions">
+                <button title="Wishlist"><i class="fas fa-heart"></i></button>
+                <button title="Quick View"><i class="fas fa-eye"></i></button>
+                <button title="Add to Cart"><i class="fas fa-bag-shopping"></i></button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Floral Wrap Midi Dress</h3>
+              <div class="stars">★★★★☆</div>
+              <div class="price"><span class="new-price">$89.00</span><span class="old-price">$142.00</span></div>
+              <button class="add-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card reveal" data-cat="top">
+            <div class="product-img-wrap">
+              <img src="https://images.unsplash.com/photo-1485231183945-fffde7cc051e?w=600&q=80" alt="Silk Blouse" loading="lazy"/>
+              <div class="product-actions">
+                <button title="Wishlist"><i class="fas fa-heart"></i></button>
+                <button title="Quick View"><i class="fas fa-eye"></i></button>
+                <button title="Add to Cart"><i class="fas fa-bag-shopping"></i></button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Draped Silk Blouse</h3>
+              <div class="stars">★★★★★</div>
+              <div class="price"><span class="new-price">$65.00</span><span class="old-price">$98.00</span></div>
+              <button class="add-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card reveal" data-cat="dress">
+            <div class="product-img-wrap">
+              <span class="badge sale">Sale</span>
+              <img src="https://images.unsplash.com/photo-1612336307429-8a898d10e223?w=600&q=80" alt="Lace Dress" loading="lazy"/>
+              <div class="product-actions">
+                <button title="Wishlist"><i class="fas fa-heart"></i></button>
+                <button title="Quick View"><i class="fas fa-eye"></i></button>
+                <button title="Add to Cart"><i class="fas fa-bag-shopping"></i></button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Lace Corset Mini Dress</h3>
+              <div class="stars">★★★★☆</div>
+              <div class="price"><span class="new-price">$109.00</span><span class="old-price">$165.00</span></div>
+              <button class="add-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card reveal" data-cat="skirt">
+            <div class="product-img-wrap">
+              <img src="https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&q=80" alt="Pleated Skirt" loading="lazy"/>
+              <div class="product-actions">
+                <button title="Wishlist"><i class="fas fa-heart"></i></button>
+                <button title="Quick View"><i class="fas fa-eye"></i></button>
+                <button title="Add to Cart"><i class="fas fa-bag-shopping"></i></button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Pleated Midi Skirt</h3>
+              <div class="stars">★★★★☆</div>
+              <div class="price"><span class="new-price">$54.00</span><span class="old-price">$79.00</span></div>
+              <button class="add-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card reveal" data-cat="dress">
+            <div class="product-img-wrap">
+              <span class="badge hot">Hot</span>
+              <img src="https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?w=600&q=80" alt="Party Dress" loading="lazy"/>
+              <div class="product-actions">
+                <button title="Wishlist"><i class="fas fa-heart"></i></button>
+                <button title="Quick View"><i class="fas fa-eye"></i></button>
+                <button title="Add to Cart"><i class="fas fa-bag-shopping"></i></button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Elegant Party Dress</h3>
+              <div class="stars">★★★★★</div>
+              <div class="price"><span class="new-price">$132.00</span><span class="old-price">$210.00</span></div>
+              <button class="add-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card reveal" data-cat="top">
+            <div class="product-img-wrap">
+              <img src="https://plus.unsplash.com/premium_photo-1664475951647-bfa3ab77d131?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Crop Top" loading="lazy"/>
+              <div class="product-actions">
+                <button title="Wishlist"><i class="fas fa-heart"></i></button>
+                <button title="Quick View"><i class="fas fa-eye"></i></button>
+                <button title="Add to Cart"><i class="fas fa-bag-shopping"></i></button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Structured Crop Top</h3>
+              <div class="stars">★★★☆☆</div>
+              <div class="price"><span class="new-price">$42.00</span><span class="old-price">$65.00</span></div>
+              <button class="add-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROMO BANNER -->
+    <section class="promo-banner">
+      <div class="promo-bg" style="background-image: url('https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=1400&q=80')"></div>
+      <div class="promo-overlay"></div>
+      <div class="promo-content reveal">
+        <span>Limited Time Offer</span>
+        <h2>Up to 75% Off — Spring Sale</h2>
+        <a href="#products" class="btn-primary">Grab the Deal <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </section>
+
+    <!-- SUMMER DEAL + COUNTDOWN -->
+    <section class="deal-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">This Week Only</span>
+          <h2>Summer Sale</h2>
+          <div class="divider"></div>
+        </div>
+
+        <div class="deal-card reveal">
+          <div class="deal-info">
+            <span class="deal-tag">SALE</span>
+            <h3>Floral Embroidery<br/>Summer Collection</h3>
+            <p>Lightweight fabrics, vibrant florals, and impeccable tailoring — crafted for warm days and long evenings. Limited stock.</p>
+            <div class="countdown" id="countdown">
+              <div class="count-box"><span id="days">00</span><label>Days</label></div>
+              <div class="count-box"><span id="hours">00</span><label>Hours</label></div>
+              <div class="count-box"><span id="mins">00</span><label>Mins</label></div>
+              <div class="count-box"><span id="secs">00</span><label>Secs</label></div>
+            </div>
+            <div class="deal-price">
+              <span class="new-price">$280.00</span>
+              <span class="old-price">$420.00</span>
+            </div>
+            <button class="btn-primary">Add to Cart <i class="fas fa-bag-shopping"></i></button>
+          </div>
+          <div class="deal-img">
+            <div class="deal-img-inner">
+              <span class="deal-img-badge">33% OFF</span>
+              <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=700&q=80" alt="Summer Collection" loading="lazy"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">What They Say</span>
+          <h2>Testimonials</h2>
+          <div class="divider"></div>
+        </div>
+
+        <div class="testimonial-slider">
+          <button class="slide-btn tprev" id="tPrev"><i class="fas fa-chevron-left"></i></button>
+
+          <div class="testimonial-track" id="testimonialTrack">
+
+            <div class="testimonial-item">
+              <div class="t-avatar">
+                <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=200&q=80" alt="Sarah K."/>
+              </div>
+              <div class="t-stars">★★★★★</div>
+              <p class="t-quote">"The quality absolutely blew me away. The fabric is luxurious and the fit is perfect. I've already ordered three more pieces — this is my new favourite store."</p>
+              <span class="t-name">Sarah K.</span>
+              <span class="t-role">Fashion Blogger, London</span>
+            </div>
+
+            <div class="testimonial-item">
+              <div class="t-avatar">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80" alt="Maya R."/>
+              </div>
+              <div class="t-stars">★★★★★</div>
+              <p class="t-quote">"Shipping was incredibly fast and the packaging was so beautiful I almost didn't want to open it. The dress I got is stunning — I received compliments all night."</p>
+              <span class="t-name">Maya R.</span>
+              <span class="t-role">Creative Director, New York</span>
+            </div>
+
+            <div class="testimonial-item">
+              <div class="t-avatar">
+                <img src="https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?w=200&q=80" alt="Aisha M."/>
+              </div>
+              <div class="t-stars">★★★★☆</div>
+              <p class="t-quote">"Finally a brand that understands modern women — stylish but practical, beautiful but wearable. The summer collection is everything I needed and more."</p>
+              <span class="t-name">Aisha M.</span>
+              <span class="t-role">Entrepreneur, Dubai</span>
+            </div>
+
+          </div>
+
+          <button class="slide-btn tnext" id="tNext"><i class="fas fa-chevron-right"></i></button>
+        </div>
+
+        <div class="t-dots" id="tDots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Get in Touch</span>
+          <h2>Contact Us</h2>
+          <div class="divider"></div>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <h3>Let's Start a Conversation</h3>
+            <p>We'd love to hear from you. Whether it's a question about an order, a sizing query, or just want to say hello — we're here.</p>
+            <div class="info-item"><i class="fas fa-map-marker-alt"></i><span>123 Fashion Ave,islamabad, pakistan</span></div>
+            <div class="info-item"><i class="fas fa-phone"></i><span>1234567890</span></div>
+            <div class="info-item"><i class="fas fa-envelope"></i><span> LUMIÈRE — Women's Fashion.com</span></div>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-pinterest-p"></i></a>
+              <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+          </div>
+
+          <div class="contact-form reveal">
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" id="cName"/>
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Email Address" id="cEmail"/>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Subject" id="cSubject"/>
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Your Message" rows="5" id="cMsg"></textarea>
+            </div>
+            <button class="btn-primary" id="sendBtn">Send Message <i class="fas fa-paper-plane"></i></button>
+            <div class="form-success" id="formSuccess">✓ Message sent! We'll reply within 24 hours.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-col">
+        <a href="#" class="logo footer-logo">LUMIÈRE</a>
+        <p>Where modern elegance meets effortless style. Curated fashion for the contemporary woman.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-pinterest-p"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <a href="#">New Arrivals</a>
+        <a href="#">Dresses</a>
+        <a href="#">Tops & Blouses</a>
+        <a href="#">Skirts & Pants</a>
+        <a href="#">Sale</a>
+      </div>
+      <div class="footer-col">
+        <h4>Help</h4>
+        <a href="#">Sizing Guide</a>
+        <a href="#">Shipping Info</a>
+        <a href="#">Returns</a>
+        <a href="#">FAQs</a>
+        <a href="#">Track Order</a>
+      </div>
+      <div class="footer-col">
+        <h4>Newsletter</h4>
+        <p>Get exclusive deals and style tips straight to your inbox.</p>
+        <div class="newsletter">
+          <input type="email" placeholder="Your email"/>
+          <button><i class="fas fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 LUMIÈRE. All rights reserved. Crafted with <i class="fas fa-heart"></i> for modern women.</p>
+    </div>
+  </footer>
+
+  <!-- Cart Toast -->
+  <div class="cart-toast" id="cartToast">
+    <i class="fas fa-bag-shopping"></i> Item added to cart!
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
